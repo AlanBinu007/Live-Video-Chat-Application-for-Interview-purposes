@@ -1,0 +1,226 @@
+@import '../../assets/styles/_mixins.scss';
+.home {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  
+  .body-div {
+    // position: relative;
+    overflow: hidden;
+    height: 87vh;
+    .flex-box {
+      display: flex;
+      .left-div {
+        // margin: auto;
+        //   text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        align-items: center;
+        // padding: 3rem;
+
+        .contents {
+          position: absolute;
+          width: 40%;
+          margin-left: 30%;
+          //   background-color: whitesmoke;
+          align-items: center;
+          .chat-img {
+            width: 120%;
+            height: 140%;
+            opacity: 0.15;
+            top: 20%;
+            right: 55%;
+            position: absolute;
+          }
+          .note-img {
+            width: 60%;
+            height: 70%;
+            opacity: 0.15;
+            top: 80%;
+            left: 115%;
+            position: absolute;
+            transform: rotate(-30deg);
+            //  z-index: -1;
+          }
+        }
+
+        input {
+          padding: 0.5rem;
+          border: 2px solid rgb(209, 209, 209);
+          outline: none;
+          border-radius: 10px;
+          width: 70%;
+          font-size: 18px;
+          transition-duration: 0.4s;
+          &:focus {
+            border-color: rgb(44, 189, 199);
+          }
+          z-index: 100;
+        }
+        .home-btn {
+          margin: auto;
+          padding: 0.5rem 1rem;
+          border-radius: 25px;
+          border: none;
+          cursor: pointer;
+          font-size: 17px;
+          border: 2px solid rgb(22, 192, 113);
+          background-color: rgb(13, 75, 133);
+          color: white;
+          transition-duration: 0.4s;
+          &:hover {
+            background-color: rgb(27, 130, 153);
+            color: white;
+          }
+          z-index: 1;
+        }
+        .start-meet {
+          //     display: flex;
+          //   justify-content: flex-start;
+          // align-items: center;
+          // margin: left;
+          padding: 1rem 0;
+        }
+        .join-meet {
+          //   margin: auto;
+          width: 90%;
+          padding: 1rem 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .features {
+          margin: auto;
+          padding: 1rem;
+          margin-left: 4rem;
+          .grid-div {
+            width: 70%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 10px;
+            grid-column-gap: 10px;
+            margin-left: 10%;
+            // background-color: grey;
+            p {
+              font-size: 20px;
+            }
+            p {
+              margin: auto 0;
+            }
+            svg {
+              font-size: 30px;
+            }
+          }
+        }
+      }
+      .right-div {
+        width: 60%;
+        // img {
+        //   width: 30%;
+        //   height: 30%;
+        //   display: flex;
+        //   align-items: center;
+        // }
+        // background-color: whitesmoke;
+        video {
+          width: 100%;
+          // height: 100%;
+        }
+      }
+    }
+  }
+  @include mobile {
+    // overflow-y: scroll;
+    .body-div {
+      height: 87vh;
+      .flex-box {
+        display: block;
+        .left-div {
+          // position: relative;
+          z-index: 1;
+          width: 100%;
+          .contents {
+            // position: absolute;
+
+            width: 100%;
+            margin-left: 10%;
+            top: 25%;
+
+            .note-img {
+              width: 50%;
+              height: 50%;
+              opacity: 0.15;
+              top: 40%;
+              left: 65%;
+              position: absolute;
+              transform: rotate(-30deg);
+              //  z-index: -1;
+            }
+            .chat-img {
+              width: 90%;
+              height: 70%;
+              opacity: 0.15;
+              top: 60%;
+              right: 55%;
+              position: absolute;
+            }
+          }
+
+          input {
+            // z-index: 1;
+            padding: 0.5rem;
+            border: 2px solid rgb(209, 209, 209);
+            outline: none;
+            border-radius: 10px;
+            width: 55%;
+            font-size: 18px;
+            transition-duration: 0.4s;
+            &:focus {
+              border-color: rgb(44, 189, 199);
+            }
+          }
+          .home-btn {
+            position: relative;
+            padding: 0.5rem;
+            &:hover {
+              background-color: rgb(27, 130, 153);
+              color: white;
+            }
+            z-index: 1;
+          }
+          .start-meet {
+            padding: 2rem 1rem;
+          }
+          .join-meet {
+            //   margin: auto;
+            width: 100%;
+            padding: 0.5rem 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+          .features {
+            margin: auto;
+            padding: 1rem;
+            margin-left: 1rem;
+            .grid-div {
+              width: 90%;
+              margin-left: 10%;
+            }
+          }
+        }
+        .right-div {
+          width: 100%;
+          video {
+            z-index: -1;
+            width: 100%;
+            // height: 100%;
+          }
+        }
+      }
+    }
+  }
+}

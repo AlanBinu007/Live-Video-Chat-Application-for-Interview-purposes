@@ -1,0 +1,72 @@
+.join-page {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  height: 90vh;
+}
+
+.join-page .video-div video {
+  width: 50%;
+  height: 40%;
+}
+
+.join-page input {
+  margin-top: 5%;
+  padding: 0.5rem;
+  border: 2px solid #d1d1d1;
+  outline: none;
+  border-radius: 10px;
+  width: 70%;
+  font-size: 18px;
+  transition-duration: 0.4s;
+  z-index: 100;
+}
+
+.join-page input:focus {
+  border-color: #2cbdc7;
+}
+
+.join-page .join-btns-div {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: auto;
+  padding: 1rem 0.5rem;
+}
+
+.join-page .join-btns-div .btn {
+  margin: auto;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  border: 2px solid #16c071;
+  background-color: #0d4b85;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.join-page .join-btns-div .btn:hover {
+  background-color: #1b8299;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .join-page .join-btns-div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .join-page .video-div video {
+    width: 70%;
+    height: 50%;
+  }
+}

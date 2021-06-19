@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Skranji:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+.navbar {
+  // box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 8vh;
+  padding: 0 20px;
+  .title-div {
+    align-items: center;
+    // padding: 0 20px;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    grid-column-gap: 10px;
+    img {
+      // width: 70%;
+      height: 70%;
+    }
+    h3 {
+      // font-family: 'Jua', sans-serif;
+      // font-family: 'Skranji', cursive;
+      font-family: 'Spinnaker', sans-serif;
+      font-size: 25px;
+      font-weight: 400;
+      // margin-left: 10px;
+      margin: auto 0;
+      color: white;
+    }
+  }
+  .repo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    grid-column-gap: 5px;
+    width:auto;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    svg {
+      fill: rgb(250, 222, 10);
+      font-size: 30px;
+    //   animation: rotation 2s infinite linear;
+    }
+    .repo-text {
+        text-align: left;
+      display: block;
+      //   flex-direction: column;
+      .repo-name {
+        font-size: 11px;
+        color: white;
+        padding: 0;
+        margin:  0;
+      }
+      .github-name {
+        font-size: 15px;
+        color: white;
+        padding: 0;
+        margin:  0;
+      }
+    }
+  }
+}
+

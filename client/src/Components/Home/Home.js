@@ -31,11 +31,13 @@ const Home = (props) => {
     <div className='home'>
       <Navbar />
       <div className='body-div'>
+      
         <div className='flex-box'>
           <div className='left-div'>
+          
             <div className='contents'>
-              <h1><b>Welcome Friends</b></h1>
-              <h3><b>Its Free and Open to all</b></h3>
+            <h1><b>Welcome Friends</b></h1>
+            <h3><b>Its Free and Open to all</b></h3> 
               <div className='start-meet'>
                 <Link
                   className='home-btn'
@@ -48,6 +50,7 @@ const Home = (props) => {
                 </Link>
               </div>
               <div className='join-meet'>
+                
                 <input
                   type='text'
                   placeholder='Enter meeting code'

@@ -29,10 +29,10 @@
 }
 
 .home .body-div .flex-box .left-div .contents .chat-img {
-  width: 120%;
-  height: 140%;
+  width: 100%;
+  height: 110%;
   opacity: 0.15;
-  top: 20%;
+  top: 28%;
   right: 55%;
   position: absolute;
 }

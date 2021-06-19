@@ -41,6 +41,18 @@
   cursor: pointer;
   text-decoration: none;
 }
+.navbar .repo1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: right;
+  grid-column-gap: 5px;
+  width: auto;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+}
 
 .navbar .repo svg {
   fill: #fade0a;

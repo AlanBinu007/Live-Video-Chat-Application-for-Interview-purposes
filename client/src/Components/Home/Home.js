@@ -34,6 +34,8 @@ const Home = (props) => {
         <div className='flex-box'>
           <div className='left-div'>
             <div className='contents'>
+              <h1><b>Welcome Friends</b></h1>
+              <h3><b>Its Free and Open to all</b></h3>
               <div className='start-meet'>
                 <Link
                   className='home-btn'

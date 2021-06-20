@@ -15,35 +15,6 @@
 - Mute audio/video
 - Neat and clean UI
 
-## Screenshots 📸
-
-### Home
-![alt text](https://github.com/suresh213/video-chat/blob/master/Screenshots/1.png?raw=true)
-
-### Join Screen
-![alt text](https://github.com/suresh213/video-chat/blob/master/Screenshots/2.png?raw=true)
-
-### Meet Screen
-![alt text](https://github.com/suresh213/video-chat/blob/master/Screenshots/3.png?raw=true)
-
-### Request from other user
-![alt text](https://github.com/suresh213/video-chat/blob/master/Screenshots/4.png?raw=true)
-
-### Users on call
-![alt text](https://github.com/suresh213/video-chat/blob/master/Screenshots/5.png?raw=true)
-
-### Whiteboard(Live)
-![alt text](https://github.com/suresh213/video-chat/blob/master/Screenshots/6.png?raw=true)
-
-### Options
-![alt text](https://github.com/suresh213/video-chat/blob/master/Screenshots/7.png?raw=true)
-
-### Notes
-![alt text](https://github.com/suresh213/video-chat/blob/master/Screenshots/8.png?raw=true)
-
-### Chat
-![alt text](https://github.com/suresh213/video-chat/blob/master/Screenshots/9.png?raw=true)
-
 ## Steps to run in your machine
 
 #### Run the following commands

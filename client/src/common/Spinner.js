@@ -15,7 +15,7 @@ const Spinner = (props) => {
           textAlign: 'center',
           marginTop: `${props.starting ? '20%' : '0%'}`,
         }}
-        alt='Loading...'
+        alt='Loading......'
       ></img>
       <h2 style={{ textAlign: 'center' }}>
         {props.starting ? 'Starting your meeting...' : 'Loading your video...'}

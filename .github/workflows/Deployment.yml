@@ -1,1 +1,25 @@
 
+name: CI + CD
+
+on:
+  workflow_dispatch:
+
+jobs:      
+  Production:
+    runs-on: ubuntu-latest
+    environment: Development
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run a script
+        run: firebase login ${{scerets.FIREBASE_ID}} ${{scerets.FIREBASE_PASS}} 
+              firebase deploy
+
+        
+  Development:
+    runs-on: ubuntu-latest
+    environment: Production
+    needs: Production
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run a script
+        run: echo "Deployed"

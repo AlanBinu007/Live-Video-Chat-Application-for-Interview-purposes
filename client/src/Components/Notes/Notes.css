@@ -36,3 +36,13 @@
   outline: none;
   resize: none;
 }
+
+.notesesed textareaese {
+  border: none;
+  border-top: 0.5px solid gainsboro;
+  padding: 10px;
+  height: 90%;
+  width: 100%;
+  outline: none;
+  resize: none;
+}
